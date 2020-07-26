@@ -41,7 +41,7 @@ padding-bottom: 20px;
 
 .title {
   text-align: center; 
-  padding-bottom: 40px; 
+  margin-bottom: 70px; 
   color: black;
 }
 
@@ -52,7 +52,7 @@ padding-bottom: 20px;
 .gallery-pic,
 .calculator-pic {
     max-width: 90%;
-    margin: 25px auto;
+    margin-bottom: 25px;
     display: block;
 }
 
@@ -92,6 +92,15 @@ footer {
 
 .footer-nav {
     display: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+   color: grey; 
 }
 
 
@@ -142,21 +151,13 @@ footer {
 
     .marketing,
     .travel,
-    .gallery {
-        width: 50%;
-        float: left;
-        margin-left: 1.6%; 
-        margin-right: -1.6%;  
-    } 
-
+    .gallery, 
     .search,
     .map,
     .calculator {
         width: 50%;
-        float: right;
-        margin-right: 1.6%; 
-        margin-left: -1.6%;
-    }
+        float: left;
+    } 
 
     .marketing p,
     .search p,
